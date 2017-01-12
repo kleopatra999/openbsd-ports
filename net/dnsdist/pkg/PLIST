@@ -1,0 +1,6 @@
+@comment $OpenBSD$
+@newgroup _dnsdist:787
+@newuser _dnsdist:787:_dnsdist:daemon:dnsdist DNS load balancer:/nonexistent:/sbin/nologin
+@bin bin/dnsdist
+@man man/man1/dnsdist.1
+@rcscript ${RCDIR}/dnsdist
